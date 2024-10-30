@@ -49,6 +49,7 @@ This project does not require backend dependencies but leverages:
 - Open index.html: Open the index.html file in a web browser to launch the tool.
 
 ### Directory Structure
+```plaintext
 ├── index.html              # Main landing page
 ├── transposition.html       # Transposition tool page
 ├── flute-finger.html        # Flute fingering chart page
@@ -62,6 +63,7 @@ This project does not require backend dependencies but leverages:
 │   └── images/
 │       └── placeholder.png  # Placeholder images for screenshots
 └── README.md                # Project documentation
+
 
 
 ### Using the Transposition Tool
