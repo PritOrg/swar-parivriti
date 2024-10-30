@@ -1,0 +1,106 @@
+/* Styling for body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #89f7fe 30%, #66a6ff 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Transposer Container */
+.transposer-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Flute Container */
+.flute-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the Header */
+.flute-container h1 {
+    font-size: 3rem;
+    font-family: 'Abril Fatface', cursive;
+    background: linear-gradient(135deg, #007bff, #00a99d);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+/* Flute Underline */
+.flute-underline {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    transform: rotate(180deg);
+}
+
+/* Result Styling */
+#result {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    overflow-y: auto; /* Makes it scrollable */
+    width: 100%;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .flute-container h1 {
+        font-size: 2rem;
+    }
+
+    .flute-underline {
+        width: 80%;
+        margin-top: -15px;
+    }
+}
+
+/* General Form Elements */
+label {
+    font-weight: 600;
+    color: #007bff;
+}
+
+select, textarea, button {
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
