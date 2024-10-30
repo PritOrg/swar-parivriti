@@ -40,8 +40,9 @@ For users familiar with Gujarati music notation, "Rajvi Special" mode:
    ```bash
    git clone https://github.com/DevelopersParadise/flute-transposition-tool.git
    cd flute-transposition-tool
-   ## Usage
-2. **Install dependencies (if using package managers)**:
+
+## Usage
+3. **Install dependencies (if using package managers)**:
 This project does not require backend dependencies but leverages:
 - Bootstrap for responsive styling.
 - Font Awesome for icons.
@@ -49,22 +50,20 @@ This project does not require backend dependencies but leverages:
 - Open index.html: Open the index.html file in a web browser to launch the tool.
 
 ### Directory Structure
-```plaintext
-├── index.html              # Main landing page
-├── transposition.html       # Transposition tool page
-├── flute-finger.html        # Flute fingering chart page
-├── about.html               # About page
-├── info.html                # How-to guide
-├── assets/
-│   ├── css/
-│   │   └── style.css        # Custom styling for the app
-│   ├── js/
-│   │   └── script.js        # Core JavaScript for functionality
-│   └── images/
-│       └── placeholder.png  # Placeholder images for screenshots
-└── README.md                # Project documentation
-
-
+      ```plaintext
+      ├── index.html              # Main landing page
+      ├── transposition.html       # Transposition tool page
+      ├── flute-finger.html        # Flute fingering chart page
+      ├── about.html               # About page
+      ├── info.html                # How-to guide
+      ├── assets/
+      │   ├── css/
+      │   │   └── style.css        # Custom styling for the app
+      │   ├── js/
+      │   │   └── script.js        # Core JavaScript for functionality
+      │   └── images/
+      │       └── placeholder.png  # Placeholder images for screenshots
+      └── README.md                # Project documentation
 
 ### Using the Transposition Tool
 - **Select the Original Scale** of the song.
