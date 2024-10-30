@@ -62,7 +62,7 @@ This project does not require backend dependencies but leverages:
       │   ├── js/
       │   │   └── script.js        # Core JavaScript for functionality
       │   └── images/
-      │       └── placeholder.png  # Placeholder images for screenshots
+      │       └── Screenshots      # images for screenshots
       └── README.md                # Project documentation
 
 ### Using the Transposition Tool
@@ -83,10 +83,10 @@ This project does not require backend dependencies but leverages:
 
 ## Screenshots
 
-![Transposition Tool Screenshot](assets/images/placeholder.png)
+![Transposition Tool Screenshot](assets/images/Screenshots/transpose.png)
 *Transposition Tool Interface*
 
-![Fingering Chart Screenshot](assets/images/placeholder.png)
+![Fingering Chart Screenshot](./assets/images/Screenshots/finger_chart.png.png)
 *Interactive Fingering Chart*
 
 ## Technologies Used
